@@ -37,10 +37,44 @@
             <label for="papryka">papryka</label>
         </div>
     </div>
+    <br>
+    <div id="Skladniki">
+        <h2>Mięso</h2>
+        <input type="radio" id="mieszane" name="wyborMiesa" value="Mieszane">
+        <label for="mieszane">Mieszane</label><br>
+        <input type="radio" id="kurczak" name="wyborMiesa" value="Kurczak">
+        <label for="kurczak">Kurczak</label><br>
+        <input type="radio" id="wolowina" name="wyborMiesa" value="Wołowina">
+        <label for="wolowina">Wołowina</label><br>
+        <br>
+        <h2>Sos</h2>
+        <input type="radio" id="lagodny" name="wyborSosu" value="Łagodny">
+        <label for="lagodny">Łagodny</label><br>
+        <input type="radio" id="mieszany" name="wyborSosu" value="Mieszany">
+        <label for="mieszany">Mieszany</label><br>
+        <input type="radio" id="ostry" name="wyborSosu" value="Ostry">
+        <label for="ostry">Ostry</label><br>
+    </div>
+    <div id="dane">
+        <h2>Twoje dane:</h2>
+        <label for="imieNazwisko">Imię i nazwisko</label>
+        <input type="text" id="imieNazwisko" name="imieNazwisko"><br>
+        <br>
+        <label for="telefon">Numer telefonu</label>
+        <input type="text" id="telefon" name="telefon"><br>    
+        <br>
+        <label for="plec">Płeć</label>
+        <select name="plec" id="plec" form="myForm">
+        <option value="Mężczyzna">Mężczyzna</option>
+        <option value="Kobieta">Kobieta</option>
+        </select><br>
+        <br>
+        <button id="wyslij">Wyślij</button>
+        <button id="resetuj">Resetuj</button>
+        <br>
+        <p id="wynik"></p>
+    </div>
     </form>
-
-
-
 
 
     <script src="skrypt.js"></script>
