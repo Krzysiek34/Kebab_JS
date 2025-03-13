@@ -2,19 +2,43 @@ body{
     background-color: slategray ;
 }
 #menu{
-    border: solid 1px black;
+    border: 10px groove black;
     width: 70%;
     height: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20%;
+    padding: 150px;
+    font-size: 150%;
     
 }
 #danie{
     text-align: center;
-    float: left;
+    flex: 1;
+    
+
 }
 #zdj{
+    text-align: center;
 
 }
 #dodatki{
     text-align: center;
+    flex: 1;
+
+}
+#danie input{
     float: left;
+    width: 100px;
+    text-align: left;
+    margin-right: 1px;
+}
+#dodatki input{
+    float: left;
+    width: 100px;
+    text-align: left;
+    margin-right: 1px;
+    
 }
