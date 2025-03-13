@@ -42,3 +42,31 @@ body{
     margin-right: 1px;
     
 }
+#skladniki{
+    text-align: center;
+    font-size: 120%;
+}
+#skladniki label{
+    margin-right: 20px;
+}
+
+#dane{
+    margin-top: 70px;
+    text-align: center;
+    font-size: 120%;
+}
+#dane label{
+    margin-right: 20px;
+}
+button{
+    
+    width: 120px;
+    height: 40px;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+#wynik{
+    margin-top: 70px;
+    text-align: center;
+    font-size: 120%;
+}
